@@ -1,0 +1,192 @@
+* {
+  font-family: Heebo;
+}
+header {
+  padding: 20px;
+}
+header nav {
+  display: flex;
+  justify-content: end;
+}
+header nav a {
+  font-size: 20px;
+  margin: 0 20px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+#technologist {
+  padding: 100px 150px 50px 150px;
+}
+#technologist .container {
+  display: flex;
+  justify-content: space-between;
+}
+.textbox {
+  width: 500px;
+}
+h2 {
+  font-size: 44px;
+  font-weight: 700;
+  /* line-height: 60px; */
+  padding-right: 50px;
+  width: 430px;
+  height: 105px;
+  color: #21243d;
+}
+p {
+  font-size: 16px;
+  /* font-weight: 700; */
+  /* line-height: 20px; */
+  /* width: 500px; */
+  text-align: justify;
+  color: #21243d;
+}
+button {
+  background-color: #ff6464;
+  color: #ffff;
+  width: 208px;
+  height: 47px;
+  font-size: 20px;
+  border: none;
+  margin-top: 30px;
+}
+.imgbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgbox img {
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+}
+#recentposts {
+  background-color: #edf7fa;
+  padding: 20px 150px 50px 150px;
+}
+.recentview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.recentview a {
+  font-size: 16px;
+  color: #00a8cc;
+  text-decoration: none;
+}
+.recentview h3 {
+  font-size: 22px;
+  color: #21243d;
+  font-weight: 100;
+}
+.postlist {
+  display: flex;
+  justify-content: space-between;
+}
+.textbox {
+  background-color: #ffff;
+  width: 420px;
+  padding: 20px;
+}
+h4 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #21243d;
+  margin-bottom: 15px;
+}
+.pclass {
+  display: flex;
+}
+.pclass p {
+  font-size: 18px;
+  color: #21243d;
+  width: 200px;
+}
+.textbox p {
+  font-size: 16px;
+}
+#featured {
+  padding: 20px 150px 50px 150px;
+}
+#featured h3 {
+  font-size: 22px;
+  font-weight: 100;
+}
+.postlar {
+  display: flex;
+}
+#featured .imgbox img {
+  width: 246px;
+  height: 180px;
+  border-radius: 0;
+}
+#featured .textbox {
+  width: 600px;
+}
+.postlar h4 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.tarix {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+h5 {
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffff;
+  background-color: #142850;
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+  text-align: center;
+  margin: 0;
+}
+h6 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #8695a4;
+  margin: 0;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+footer {
+  padding: 50px 150px 100px 150px;
+}
+footer .ikonlar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+i {
+  font-size: 30px;
+}
+h6 {
+  text-align: center;
+  color: #000;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.tooltips  h2{
+ color: black;
+}
+.tooltips {
+  position: relative;
+}
+.tooltips p {
+  color: grey;
+  display: none;
+}
+.tooltips:hover p {
+  display: block;
+  position: absolute;
+  top: 50px;
+}
+
